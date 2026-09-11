@@ -1,25 +1,37 @@
-# Industry Lab — UNNC course concept
+# Industry Lab — Industrial Economics at UNNC
 
-A bright, playful prototype for an Industrial Economics course resource. Prepared for April’s economics-courses repository; not an official university publication.
+A course learning resource connecting **industry → model → student video**. Learners can read the explanations and watch presentations within the website. Editorial text uses British English.
 
-## Preview
+## Run locally
 
-From this folder run `python3 -m http.server 4173`, then open http://localhost:4173.
+From this directory, run `python3 preview.py` and open `http://localhost:4173`. The site uses standard HTML, CSS, JavaScript modules and native video playback. No build step or framework is required. The preview server supports byte-range requests so the video timeline and slide links can seek correctly. All asset paths are relative for a GitHub Pages project site.
 
-This is a dependency-free static site. Serve over HTTP because `app.js` imports `data.js` as an ES module. Relative paths also work under a GitHub Pages project path.
+## Learning features
 
-## What works
+- A floating line-connection map, with industry sections and divisions kept distinct.
+- Click an industry or model to open its explanation directly; click an orange video node to watch.
+- Three Chinese industry sectors, 20 sections and 97 divisions, with bilingual classification labels.
+- 28 model/concept explanations based on seven supplied lecture PDFs, including assumptions, reasoning, examples and limitations.
+- 27 suggested exercises, distinct from the student presentations and their claims.
+- Eight playable student recordings, authentic frame previews and links to sampled slides within the videos.
+- Each video has one primary model. Six have a specified industry division; the two remaining presentations intentionally retain `subcategoryId: null`, as confirmed by the user.
+- Keyword, sector, industry, course-topic and model filters; an alternative reading-list layout.
+- Shareable model, industry and video links; keyboard navigation, motion pause and reduced-motion support.
 
-- Three discovery entrances: industries, models, student stories.
-- 8 curated themes, 24 subcategories, 12 model orientation notes.
-- Combined keyword/industry/model filters and informative empty states.
-- Bidirectional topic/model navigation, assumptions, limitations and linked examples.
-- Shareable query strings and topic/model URL fragments; keyboard-accessible dialogs.
-- Downloadable JSON dataset.
-- Honest video empty state: no student names, videos or review decisions have been invented.
+The site does not display lecture page numbers or require learners to consult the PDFs. Attribution remains visible. Original source references and SHA-256 hashes are retained in the underlying records for maintenance.
+
+## Files
+
+- `classification.js`: Chinese industry classification and sources.
+- `course.js`: lecture metadata and model explanations.
+- `data.js`: exercises, classification relationships and the combined dataset.
+- `videos.js`: eight recordings, their model/industry matches, summaries and slide cues.
+- `media/videos/`: browser-ready MP4s, remuxed without re-encoding picture or sound.
+- `media/posters/`: frames extracted from the corresponding recordings.
+- `lectures/`: unchanged copies of the supplied lecture PDFs.
+- `app.js`, `graph.js`, `styles.css`, `graph.css`, `index.html`: learning interface.
+- `SOURCE_NOTES.md`, `VIDEO_CATALOGUE.md`: source records and editorial qualifications.
 
 ## Status
 
-This is a design concept, not a complete course or production dataset. The repository contains the static-site source; hosting is configured separately. All industry/model connections are illustrative. Industry themes are curated teaching groups, not official classification labels. The model list needs alignment with the actual syllabus. Detailed model references, reviewed empirical cases, video playback/transcript search, author pages and editorial workflows are next-stage work.
-
-Read [DESIGN.md](DESIGN.md) for the proposed architecture and delivery sequence. `data.js` contains the prototype data; the mature schema is described in the proposal.
+The complete website, teaching materials and recordings are included in this repository for GitHub Pages publication. These videos have been catalogued from visible presentation slides, not independently assessed for academic correctness. Transcripts and separate caption tracks have not been supplied. The native player includes the original audio. The current collection is eight recordings, ready for later additions.

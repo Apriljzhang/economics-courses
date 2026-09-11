@@ -1,1 +1,18 @@
-[{"date":"2026-09-11","macrostructure":"Ecosystem Index","theme":"Nottingham official palette; user override of Hum colours","nav":"Visible search with keyboard shortcut","footer":"Statement","brief":"UNNC Industrial Economics linked industry-model-video explorer"}]
+[
+  {
+    "date": "2026-09-11",
+    "macrostructure": "Map / Diagram",
+    "theme": "Nottingham official palette retained at user request",
+    "nav": "Visible search retained",
+    "footer": "Existing statement retained",
+    "brief": "Local-only hierarchical industry-subcategory-model connection map with floating paths; no push authorised"
+  },
+  {
+    "date": "2026-09-11",
+    "macrostructure": "Ecosystem Index",
+    "theme": "Nottingham official palette; user override of Hum colours",
+    "nav": "Visible search with keyboard shortcut",
+    "footer": "Statement",
+    "brief": "UNNC Industrial Economics linked industry-model-video explorer"
+  }
+]
