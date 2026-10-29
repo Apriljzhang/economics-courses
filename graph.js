@@ -29,4 +29,3 @@ export function renderGraph({container,matchingTopics,industryId,modelId,onIndus
  cleanup=()=>{cancelAnimationFrame(frame);observer.disconnect();};
 }
 export function stopGraph(){cleanup();}
-
