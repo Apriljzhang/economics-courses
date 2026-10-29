@@ -1,46 +1,38 @@
 # Industry Lab — Industrial Economics at UNNC
 
-A course learning resource connecting **industry → student video → model**. Learners can read the explanations and watch presentations within the website. Editorial text uses British English.
+A bilingual course resource connecting **industry → student video → course topic / model**. English is the default; **中文** switches to Simplified Chinese.
 
 ## Run locally
 
-From this directory, run `python3 preview.py` and open `http://localhost:4173`. The site uses standard HTML, CSS, JavaScript modules and native video playback. No build step or framework is required. The preview server supports byte-range requests so the video timeline and slide links can seek correctly. All asset paths are relative for a GitHub Pages project site.
+Run `python3 preview.py` and open `http://localhost:4173/?v=20261029c`. The site uses HTML, CSS and JavaScript modules with no build step. Paths are relative for GitHub Pages.
 
-## Learning features
+## Explore
 
-- A connection map with student videos at the centre; industry sections expand to reveal divisions.
-- Click an industry or model to open its explanation directly; click an orange video node to watch.
-- 20 industry sections and 97 divisions, with English and Simplified Chinese classification labels.
-- 28 model/concept explanations based on seven supplied lecture PDFs, including assumptions, reasoning, examples and limitations.
-- 27 suggested exercises, distinct from the student presentations and their claims.
-- Eight playable student recordings, authentic frame previews and links to sampled slides within the videos.
-- Each video has one primary model. Six have a specified industry division; the two remaining presentations intentionally retain `subcategoryId: null`, as confirmed by the user.
-- Keyword, industry-section, course-topic and model filters; an alternative reading-list layout.
-- Shareable model, industry and video links; keyboard navigation and reduced-motion support.
+- The left column shows the 20 official industry sections and **Others**. Select a section to reveal its divisions; select it again or choose “Collapse divisions” to return.
+- The right column shows **Topics 1–8**, each in a numbered circle. Select a topic to reveal its models. “Collapse topics” returns to the topic overview.
+- Student videos occupy the centre. Lines connect each video with its industry (or Others) and its course topic; expanding a topic reveals its specific model connection. No direct industry–model application edge is drawn.
+- Search, section, course-topic and model filters, a reading list, stable query/hash links, keyboard controls and responsive map scrolling remain available.
+- The library contains 97 official industry divisions, 31 model/concept explanations, 27 suggested exercises and 19 linked student presentations. Others is a website navigation category, not a statistical classification.
 
-The site does not display lecture page numbers or require learners to consult the PDFs. Attribution remains visible. Original source references and SHA-256 hashes are retained in the underlying records for maintenance.
+## Video hosting
+
+All **19 individual links** were extracted from the supplied UNNC Panopto folder and checked against their visible chapter contents on 29 October 2026. The eight previously supplied recordings were matched by presentation contents and duration. Video detail pages use institutional Panopto embeds, with an “Open in Panopto” link and timestamp navigation. The website does not download or rehost the additional recordings. Existing local MP4s remain in the repository as retained originals but are not requested by the updated player when a Panopto link is present.
+
+`panopto-catalogue.json` records every link and its course/model/industry relationship. Seven presentations currently use Others: two intentionally unspecified applications and five whose precise economic activity could not be assigned from the available presentation contents. This does not treat an uncertain classification as an official code.
+
+The videos remain subject to the host’s copyright notice, access controls and availability. Cataloguing a presentation does not independently validate its academic claims. Original audio and slides retain their language; the website’s navigation, model notes, case descriptions and slide-navigation labels have Simplified Chinese translations.
+
+## Topic 6
+
+**Product differentiation** was confirmed by the course owner and four videos in the institutional folder. Those videos use Hotelling, Salop and Lancaster approaches. The original Lecture 6 PDF was not supplied. The three added background explanations therefore cite separate reading sources and are distinguished from notes based on the supplied lecture PDFs. The seven existing PDFs and their source metadata are preserved.
 
 ## Files
 
-- `classification.js`: Chinese industry classification and sources.
-- `course.js`: lecture metadata and model explanations.
-- `data.js`: exercises, classification relationships and the combined dataset.
-- `videos.js`: eight recordings, their model/industry matches, summaries and slide cues.
-- `media/videos/`: browser-ready MP4s, remuxed without re-encoding picture or sound.
-- `media/posters/`: frames extracted from the corresponding recordings.
-- `lectures/`: unchanged copies of the supplied lecture PDFs.
-- `app.js`, `graph.js`, `styles.css`, `graph.css`, `index.html`: learning interface.
-- `SOURCE_NOTES.md`, `VIDEO_CATALOGUE.md`: source records and editorial qualifications.
-
-## Status
-
-The complete website, teaching materials and recordings are included in this repository for GitHub Pages publication. These videos have been catalogued from visible presentation slides, not independently assessed for academic correctness. Transcripts and separate caption tracks have not been supplied. The native player includes the original audio. The current collection is eight recordings, ready for later additions.
-
-
-## October 2026 interface update
-
-The connection map follows **industry → student video → model**. Sections are shown first; selecting one reveals its divisions, and “Collapse divisions” returns to the overview. The map draws section–division classification links and video–industry/model links. Course exercises remain available in the details without direct industry–model edges on the map.
-
-The two browse/sector button rows have been removed. Search, section, course-topic and model filters remain, alongside the connections/list choice. English is the default. The **中文** button opens `?lang=zh`; **English** returns to the English version while preserving filters and a selected detail. `i18n.js` translates the interface, and `content-zh.js` contains Simplified Chinese translations of all 28 model explanations, 27 exercises and eight video descriptions and slide cues. Video audio and slides retain their original language.
-
-The UNNC video-library link opens the supplied Panopto folder. That folder requires the viewer’s institutional access when prompted; it is not an individual playable recording. Existing local MP4s are retained until each recording can be matched to a verified individual share link. To use institutional hosting for an entry, add `panoptoUrl` to its record in `videos.js`, using the full HTTPS `https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=<session UUID>` link. The detail will open that session in Panopto, with its existing access controls, and will not request the local MP4. `video-source.js` validates the institutional hostname and individual-session format. Never put the folder URL into a recording’s `src` or guess a session ID.
+- `classification.js`: official industry labels, divisions and classification sources.
+- `course.js`: eight course-topic headings and 31 model/concept explanations, including separately sourced Topic 6 notes.
+- `data.js`: suggested exercises, activity mappings and the combined dataset.
+- `videos.js`, `panopto-catalogue.json`: all 19 verified institutional links and catalogue relationships.
+- `video-source.js`: validates individual institutional URLs and constructs embed URLs.
+- `app.js`, `graph.js`, `styles.css`, `graph.css`, `index.html`: interface, circular nodes and hierarchical connection map.
+- `i18n.js`, `content-zh.js`: English/Simplified Chinese navigation and editorial content.
+- `SOURCE_NOTES.md`, `VIDEO_CATALOGUE.md`: source provenance, mapping boundaries and catalogue history.

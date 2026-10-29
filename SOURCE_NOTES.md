@@ -38,3 +38,20 @@ Editorial prose uses British English. Original titles and PDF text are preserved
 ## Learner presentation
 
 The website now follows industry → model → video order throughout. Model and industry nodes open explanations directly. Visible page references and the lecture-first map were removed at the user’s request. Source-based prose was adapted to introduce the concepts directly while retaining mathematical qualifications. The original references remain in the records for maintenance. Eight student videos are separately catalogued in `videos.js`; their claims are attributed to the presentations, not to the lecture author.
+
+
+## 29 October 2026: institutional video links and Topic 6
+
+All 19 individual viewer links were extracted from the supplied STLG folder through the visible Panopto interface. Each session’s chapter contents were inspected. The original eight catalogue entries were matched by their presentation topics and durations, not by a Topic number alone. The remaining 11 records describe the inspected chapter contents; this is not a full transcription or independent review. All 19 use institutional embeds without copying the new video files.
+
+Others is a navigation category for unspecified or unresolved industry mappings. The original two unspecified cases remain null. Ticket scalping, education agencies, the Atari case, the pink-tax presentation and the Tianyi Square case also remain null because the available contents do not identify the precise economic activity needed for a two-digit code. The visible course-topic number is preserved independently of industry classification.
+
+The owner identified Topic 6 as Product differentiation. Four Panopto sessions independently display Lancaster, Salop or Hotelling in their contents. The original Lecture 6 PDF remains unavailable; it is not fabricated or attributed a page count or hash. Three supplementary model explanations use the following separate reading sources, with no claim that their illustrative examples appeared in the original UNNC lecture:
+
+- Hotelling: Glenn Ellison, MIT OpenCourseWare, Static Competition and Models of Differentiation, Part 1: https://ocw.mit.edu/courses/14-271-industrial-organization-i-fall-2022/mit14_271_f22_lec5slides.pdf
+- Salop (1979), Monopolistic Competition with Outside Goods: https://jeromemathis.fr/wp-content/uploads/2020/01/Salop_RAND1979.pdf
+- Lancaster (1966), A New Approach to Consumer Theory: https://doi.org/10.1086/259131
+
+The learner-facing notes identify their supplementary sources. Existing lecture-based explanations retain their original attribution. Both sides of the map now expand on demand, and video edges terminate at the course topic while collapsed and at the specific model while expanded.
+
+Presentation topic IDs are taken from the institutional titles and are independent of the topic in which a model was introduced. In particular, the SOE presentation is labelled Topic 3 but uses the Nash bargaining solution introduced in Topic 2. The Topic 3 expansion includes this model as used by that presentation; neither source label is overwritten.

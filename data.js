@@ -1,8 +1,8 @@
-import {sectors, sections, divisions, classificationSources} from './classification.js';
-import {lectures, models} from './course.js';
-import {videos} from './videos.js';
+import {sectors, sections, divisions, classificationSources} from './classification.js?v=20261029c';
+import {lectures, models} from './course.js?v=20261029c';
+import {videos} from './videos.js?v=20261029c';
 export {sectors, classificationSources, lectures, models, videos};
-export const industries=sections;
+export const industries=[...sections,{id:'others',code:'',name:'Others',nameZh:'其他',label:'Others',symbol:'…',sectorIds:[],topics:[],classificationStatus:'Unassigned or non-industry application; not an official industry section'}];
 export const examples = [
   {
     "id": "ride-hailing",

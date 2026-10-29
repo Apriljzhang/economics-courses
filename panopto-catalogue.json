@@ -1,0 +1,216 @@
+{
+  "retrieved": "2026-10-29",
+  "folder": "https://video.nottingham.edu.cn/Panopto/Pages/Sessions/List.aspx#folderID=%22f565e115-184a-479f-aef6-b1bf001d653f%22",
+  "verification": "All 19 individual viewer links and their visible chapter contents inspected; eight also matched to the previously supplied recordings.",
+  "sessions": [
+    {
+      "id": "advertising-shapley",
+      "title": "Shapley value in online advertising",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=b890053e-fe95-4615-a4a1-b20d001d6f6e",
+      "courseTopicId": "2",
+      "modelId": "shapley",
+      "subcategoryId": "72",
+      "duration": 340.522,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "basketball-shapley",
+      "title": "Shapley value in basketball teams",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=e6bf5cea-428f-484f-83db-b20d001d6faf",
+      "courseTopicId": "2",
+      "modelId": "shapley",
+      "subcategoryId": "89",
+      "duration": 265.77,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "health-shapley",
+      "title": "Shapley value and health outcomes",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=fcfa4cf4-47e2-460e-a8d2-b2c000f8c7c4",
+      "courseTopicId": "2",
+      "modelId": "shapley",
+      "subcategoryId": "84",
+      "duration": 334.869,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "railway-bargaining",
+      "title": "Bargaining options in the French railway strike",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=67426bee-4957-401e-8394-b2c000f8c7e4",
+      "courseTopicId": "3",
+      "modelId": "bargaining-options",
+      "subcategoryId": "53",
+      "duration": 279.381,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "automotive-bargaining",
+      "title": "Bargaining options in automotive labour negotiations",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=aa2adb0f-3c9e-477f-8be8-b20d001e2551",
+      "courseTopicId": "3",
+      "modelId": "bargaining-options",
+      "subcategoryId": "36",
+      "duration": 536.405,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "imf-bargaining",
+      "title": "Outside options in IMF negotiations",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=b94cf868-7754-4658-be4c-b20d001d6f91",
+      "courseTopicId": "3",
+      "modelId": "bargaining-options",
+      "subcategoryId": "97",
+      "duration": 530.88,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "soe-nash-bargaining",
+      "title": "Nash bargaining in SOE restructuring",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=dadb3c23-0355-4310-bed8-b20d001dc102",
+      "courseTopicId": "3",
+      "modelId": "nash-bargaining",
+      "subcategoryId": null,
+      "duration": 376.448,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "marriage-nash",
+      "title": "Nash equilibrium in marriage decisions",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=6e3727ed-c66a-495e-b92e-b20d001d6f4f",
+      "courseTopicId": "1",
+      "modelId": "nash",
+      "subcategoryId": null,
+      "duration": 401.472,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review."
+    },
+    {
+      "id": "luxury-handbags-lemons",
+      "title": "Adverse selection in second-hand luxury handbags",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=02430eba-2c13-4c31-806a-b2c000f8c7a6",
+      "courseTopicId": "8",
+      "modelId": "lemons",
+      "subcategoryId": "52",
+      "duration": 331,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "qq-music-lancaster",
+      "title": "Product characteristics in QQ Music",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=53a4fc41-6d04-49b5-ae86-b2c000f8c77a",
+      "courseTopicId": "6",
+      "modelId": "lancaster",
+      "subcategoryId": "64",
+      "duration": 326,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "ticket-scalping-lemons",
+      "title": "The lemons model and ticket scalping",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=6125ce85-6847-4006-b371-b20d0021f968",
+      "courseTopicId": "8",
+      "modelId": "lemons",
+      "subcategoryId": null,
+      "duration": 482,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "education-agents-lemons",
+      "title": "Asymmetric information in education agencies",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=d3938f01-ca04-4509-85cc-b20d002194a0",
+      "courseTopicId": "8",
+      "modelId": "lemons",
+      "subcategoryId": null,
+      "duration": 327,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "atari-lemons",
+      "title": "The lemons model and the Atari shock",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=d45bf321-7b18-4523-83ac-b20d0020f9f1",
+      "courseTopicId": "8",
+      "modelId": "lemons",
+      "subcategoryId": null,
+      "duration": 534,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "pink-tax-pricing",
+      "title": "Third-degree price discrimination and the pink tax",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=84d79253-d708-4e73-9eaa-b20d00205bbb",
+      "courseTopicId": "7",
+      "modelId": "third-degree",
+      "subcategoryId": null,
+      "duration": 443,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "tianyi-square-salop",
+      "title": "The Salop model and Tianyi Square",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=39c6d9d0-3ee0-4727-96a2-b20d001fe7b8",
+      "courseTopicId": "6",
+      "modelId": "salop",
+      "subcategoryId": null,
+      "duration": 414,
+      "mappingStatus": "industry-unspecified",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "independent-coffee-lancaster",
+      "title": "Product characteristics and independent coffee shops",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=ae45e64a-f3b6-47d6-a349-b20d001fb2fb",
+      "courseTopicId": "6",
+      "modelId": "lancaster",
+      "subcategoryId": "62",
+      "duration": 554,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "milk-tea-hotelling",
+      "title": "Hotelling competition between milk-tea brands",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=765cae46-68ba-480a-a2a8-b20d001f3599",
+      "courseTopicId": "6",
+      "modelId": "hotelling",
+      "subcategoryId": "62",
+      "duration": 575,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "ev-bertrand",
+      "title": "Bertrand pricing and the electric-vehicle market",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=2f17a46d-d40d-426f-a4bb-b20d001edb4b",
+      "courseTopicId": "5",
+      "modelId": "bertrand",
+      "subcategoryId": "36",
+      "duration": 429,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    },
+    {
+      "id": "dyson-multiproduct",
+      "title": "Multiproduct pricing and Dyson",
+      "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=18dcf2f8-0106-44eb-b11f-b20d001ea8fe",
+      "courseTopicId": "4",
+      "modelId": "multiproduct",
+      "subcategoryId": "38",
+      "duration": 215,
+      "mappingStatus": "matched",
+      "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+    }
+  ]
+}

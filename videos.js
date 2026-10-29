@@ -1,4 +1,4 @@
-// Catalogue of supplied student presentations. Unspecified industries remain null, never fabricated.
+// Student presentations: individual Panopto links verified against visible chapter contents.
 export const videos = [
   {
     "id": "advertising-shapley",
@@ -39,7 +39,10 @@ export const videos = [
         "label": "Limitations"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=b890053e-fe95-4615-a4a1-b20d001d6f6e",
+    "courseTopicId": "2",
+    "host": "UNNC Panopto"
   },
   {
     "id": "basketball-shapley",
@@ -80,7 +83,10 @@ export const videos = [
         "label": "Budget allocation"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=e6bf5cea-428f-484f-83db-b20d001d6faf",
+    "courseTopicId": "2",
+    "host": "UNNC Panopto"
   },
   {
     "id": "health-shapley",
@@ -121,7 +127,10 @@ export const videos = [
         "label": "Advantages and limitations"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=fcfa4cf4-47e2-460e-a8d2-b2c000f8c7c4",
+    "courseTopicId": "2",
+    "host": "UNNC Panopto"
   },
   {
     "id": "railway-bargaining",
@@ -162,7 +171,10 @@ export const videos = [
         "label": "Conclusion"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=67426bee-4957-401e-8394-b2c000f8c7e4",
+    "courseTopicId": "3",
+    "host": "UNNC Panopto"
   },
   {
     "id": "automotive-bargaining",
@@ -203,7 +215,10 @@ export const videos = [
         "label": "Predictions and limitations"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=aa2adb0f-3c9e-477f-8be8-b20d001e2551",
+    "courseTopicId": "3",
+    "host": "UNNC Panopto"
   },
   {
     "id": "imf-bargaining",
@@ -244,7 +259,10 @@ export const videos = [
         "label": "Further discussion"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=b94cf868-7754-4658-be4c-b20d001d6f91",
+    "courseTopicId": "3",
+    "host": "UNNC Panopto"
   },
   {
     "id": "soe-nash-bargaining",
@@ -289,7 +307,10 @@ export const videos = [
         "label": "Further discussion"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=dadb3c23-0355-4310-bed8-b20d001dc102",
+    "courseTopicId": "3",
+    "host": "UNNC Panopto"
   },
   {
     "id": "marriage-nash",
@@ -334,6 +355,405 @@ export const videos = [
         "label": "Further discussion"
       }
     ],
-    "cataloguingBasis": "Visible slides sampled at the listed times; not a full transcript or an independent check of presentation claims."
+    "cataloguingBasis": "Existing supplied recording matched to Panopto by presentation contents and duration; not an independent academic review.",
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=6e3727ed-c66a-495e-b92e-b20d001d6f4f",
+    "courseTopicId": "1",
+    "host": "UNNC Panopto"
+  },
+  {
+    "id": "luxury-handbags-lemons",
+    "title": "Adverse selection in second-hand luxury handbags",
+    "shortTitle": "Second-hand luxury handbags",
+    "name": "Second-hand luxury handbags",
+    "modelId": "lemons",
+    "subcategoryId": "52",
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/fdfe48b7-8eb8-4775-b3c1-b2c000f8c7a0/3e694f99-e270-41ae-9772-b2c000faa875_et/thumbs/slide0.jpg",
+    "duration": 331,
+    "summary": "A presentation on asymmetric information in the second-hand luxury handbag market, with a discussion of possible solutions.",
+    "mappingNote": "Course mapping to 52 based on the identified activity; other activities within the case may require different codes.",
+    "mappingStatus": "matched",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 70,
+        "label": "Theory"
+      },
+      {
+        "time": 108,
+        "label": "Second-hand luxury handbags"
+      },
+      {
+        "time": 288,
+        "label": "Solutions"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=02430eba-2c13-4c31-806a-b2c000f8c7a6",
+    "courseTopicId": "8",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "qq-music-lancaster",
+    "title": "Product characteristics in QQ Music",
+    "shortTitle": "QQ Music",
+    "name": "QQ Music",
+    "modelId": "lancaster",
+    "subcategoryId": "64",
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/db2609aa-57f6-4526-8828-b2c000f8c771/dfc7345b-b0a0-4160-b64e-b2c000fa4f7a_et/thumbs/slide0.jpg",
+    "duration": 326,
+    "summary": "A presentation using Lancaster’s characteristics approach to discuss QQ Music, with chapters on the service, the model and demand changes.",
+    "mappingNote": "Course mapping to 64 based on the identified activity; other activities within the case may require different codes.",
+    "mappingStatus": "matched",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 42,
+        "label": "QQ Music"
+      },
+      {
+        "time": 52,
+        "label": "Lancaster model"
+      },
+      {
+        "time": 296,
+        "label": "Demand changes"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=53a4fc41-6d04-49b5-ae86-b2c000f8c77a",
+    "courseTopicId": "6",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "ticket-scalping-lemons",
+    "title": "The lemons model and ticket scalping",
+    "shortTitle": "Ticket scalping",
+    "name": "Ticket scalping",
+    "modelId": "lemons",
+    "subcategoryId": null,
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/0927935d-c3fb-4016-ba48-b20d0021f963/b359561f-f281-41b8-a864-b20d0024db21_et/thumbs/slide0.jpg",
+    "duration": 482,
+    "summary": "A presentation on the market-for-lemons model and ticket scalping, using a concert-ticket case.",
+    "mappingNote": "No two-digit industry is assigned from the available presentation contents. This presentation is grouped under Others.",
+    "mappingStatus": "industry-unspecified",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 30,
+        "label": "Market for lemons"
+      },
+      {
+        "time": 68,
+        "label": "Theory background"
+      },
+      {
+        "time": 226,
+        "label": "Ticket scalping case"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=6125ce85-6847-4006-b371-b20d0021f968",
+    "courseTopicId": "8",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "education-agents-lemons",
+    "title": "Asymmetric information in education agencies",
+    "shortTitle": "Education agencies",
+    "name": "Education agencies",
+    "modelId": "lemons",
+    "subcategoryId": null,
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/af52eab4-7f6f-4849-8b59-b20d0021949a/ce50364d-e4ba-4399-b360-b20d00248340_et/thumbs/slide0.jpg",
+    "duration": 327,
+    "summary": "A presentation on asymmetric information in the education-agent market, with a theory framework, case discussion and conclusion.",
+    "mappingNote": "No two-digit industry is assigned from the available presentation contents. This presentation is grouped under Others.",
+    "mappingStatus": "industry-unspecified",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 38,
+        "label": "Education-agent market"
+      },
+      {
+        "time": 64,
+        "label": "Theory framework"
+      },
+      {
+        "time": 116,
+        "label": "Case discussion"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=d3938f01-ca04-4509-85cc-b20d002194a0",
+    "courseTopicId": "8",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "atari-lemons",
+    "title": "The lemons model and the Atari shock",
+    "shortTitle": "Atari and video games",
+    "name": "Atari and video games",
+    "modelId": "lemons",
+    "subcategoryId": null,
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/93f38ab8-bf30-4b00-b0f9-b20d0020f9ea/f2fee197-a0e4-4948-a5a0-b20d002462b1_et/thumbs/slide0.jpg",
+    "duration": 534,
+    "summary": "A presentation discussing the lemons model, the Atari shock and subsequent responses in the video-game market.",
+    "mappingNote": "No two-digit industry is assigned from the available presentation contents. This presentation is grouped under Others.",
+    "mappingStatus": "industry-unspecified",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 60,
+        "label": "Theory"
+      },
+      {
+        "time": 170,
+        "label": "Atari shock"
+      },
+      {
+        "time": 460,
+        "label": "Nintendo’s entry"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=d45bf321-7b18-4523-83ac-b20d0020f9f1",
+    "courseTopicId": "8",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "pink-tax-pricing",
+    "title": "Third-degree price discrimination and the pink tax",
+    "shortTitle": "The pink tax",
+    "name": "The pink tax",
+    "modelId": "third-degree",
+    "subcategoryId": null,
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/7ada37bf-bcff-48b7-8fba-b20d00205bb4/c093ac3f-d3cd-4330-a227-b20d00238828_et/thumbs/slide0.jpg",
+    "duration": 443,
+    "summary": "A presentation applying third-degree price discrimination to the pink tax and discussing how gender-related price differences work.",
+    "mappingNote": "No two-digit industry is assigned from the available presentation contents. This presentation is grouped under Others.",
+    "mappingStatus": "industry-unspecified",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 28,
+        "label": "Third-degree price discrimination"
+      },
+      {
+        "time": 42,
+        "label": "The pink tax"
+      },
+      {
+        "time": 202,
+        "label": "How the price differences work"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=84d79253-d708-4e73-9eaa-b20d00205bbb",
+    "courseTopicId": "7",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "tianyi-square-salop",
+    "title": "The Salop model and Tianyi Square",
+    "shortTitle": "Tianyi Square",
+    "name": "Tianyi Square",
+    "modelId": "salop",
+    "subcategoryId": null,
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/6fc4b666-f5f5-4b21-bc32-b20d001fe7b2/764571d0-a8bd-4a43-99bf-b20d0022f94d_et/thumbs/slide0.jpg",
+    "duration": 414,
+    "summary": "A presentation introducing Salop’s model and applying it to a Tianyi Square case, with comparisons between different numbers of firms.",
+    "mappingNote": "No two-digit industry is assigned from the available presentation contents. This presentation is grouped under Others.",
+    "mappingStatus": "industry-unspecified",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 102,
+        "label": "Salop assumptions"
+      },
+      {
+        "time": 256,
+        "label": "Tianyi Square case"
+      },
+      {
+        "time": 312,
+        "label": "Case analysis"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=39c6d9d0-3ee0-4727-96a2-b20d001fe7b8",
+    "courseTopicId": "6",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "independent-coffee-lancaster",
+    "title": "Product characteristics and independent coffee shops",
+    "shortTitle": "Independent coffee shops",
+    "name": "Independent coffee shops",
+    "modelId": "lancaster",
+    "subcategoryId": "62",
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/1fbd2d08-bc29-4bf2-9b50-b20d001fb2f5/a81694a7-9356-4730-a834-b20d0022ee82_et/thumbs/slide4.jpg",
+    "duration": 554,
+    "summary": "A presentation using Lancaster’s product-characteristics approach to discuss independent coffee shops and the entry of Luckin Coffee.",
+    "mappingNote": "Course mapping to 62 based on the identified activity; other activities within the case may require different codes.",
+    "mappingStatus": "matched",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 168,
+        "label": "Lancaster characteristics approach"
+      },
+      {
+        "time": 266,
+        "label": "Luckin Coffee’s entry"
+      },
+      {
+        "time": 434,
+        "label": "Possible responses"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=ae45e64a-f3b6-47d6-a349-b20d001fb2fb",
+    "courseTopicId": "6",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "milk-tea-hotelling",
+    "title": "Hotelling competition between milk-tea brands",
+    "shortTitle": "Milk-tea brands",
+    "name": "Milk-tea brands",
+    "modelId": "hotelling",
+    "subcategoryId": "62",
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/e0b1365c-7774-4610-a7d3-b20d001f3593/27c48937-70e2-48d4-8a05-b20d00226646_et/thumbs/slide14.jpg",
+    "duration": 575,
+    "summary": "A presentation applying a fixed-location Hotelling model to milk-tea brands in Ningbo’s Yinzhou District, including a price-competition scenario.",
+    "mappingNote": "Course mapping to 62 based on the identified activity; other activities within the case may require different codes.",
+    "mappingStatus": "matched",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 136,
+        "label": "Milk-tea brands in Yinzhou"
+      },
+      {
+        "time": 218,
+        "label": "Fixed-location Hotelling model"
+      },
+      {
+        "time": 402,
+        "label": "Price competition"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=765cae46-68ba-480a-a2a8-b20d001f3599",
+    "courseTopicId": "6",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "ev-bertrand",
+    "title": "Bertrand pricing and the electric-vehicle market",
+    "shortTitle": "Electric-vehicle price competition",
+    "name": "Electric-vehicle price competition",
+    "modelId": "bertrand",
+    "subcategoryId": "36",
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/76175529-3bd1-4c49-b651-b20d001edb44/fd4beefb-e3f4-4e2f-9c84-b20d00213c7f_et/thumbs/slide0.jpg",
+    "duration": 429,
+    "summary": "A presentation using the Bertrand model to discuss Tesla’s pricing and competition in the electric-vehicle market.",
+    "mappingNote": "Course mapping to 36 based on the identified activity; other activities within the case may require different codes.",
+    "mappingStatus": "matched",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 68,
+        "label": "Model selection"
+      },
+      {
+        "time": 190,
+        "label": "Bertrand pricing"
+      },
+      {
+        "time": 254,
+        "label": "Tesla price-war case"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=2f17a46d-d40d-426f-a4bb-b20d001edb4b",
+    "courseTopicId": "5",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
+  },
+  {
+    "id": "dyson-multiproduct",
+    "title": "Multiproduct pricing and Dyson",
+    "shortTitle": "Dyson products",
+    "name": "Dyson products",
+    "modelId": "multiproduct",
+    "subcategoryId": "38",
+    "src": null,
+    "poster": "https://video.nottingham.edu.cn/Panopto/Content/Sessions4/d6829935-8c98-4945-a302-b20d001ea8f8/a3ff59dd-a46d-4224-8f5c-b20d00206bf7_et/thumbs/slide27.jpg",
+    "duration": 215,
+    "summary": "A presentation on multiproduct pricing using evidence and examples concerning Dyson products.",
+    "mappingNote": "Course mapping to 38 based on the identified activity; other activities within the case may require different codes.",
+    "mappingStatus": "matched",
+    "publicationStatus": "published",
+    "reviewStatus": "Not academically reviewed",
+    "transcript": null,
+    "captions": [],
+    "slideCues": [
+      {
+        "time": 27,
+        "label": "Multiple goods"
+      },
+      {
+        "time": 57,
+        "label": "Dyson examples"
+      },
+      {
+        "time": 182,
+        "label": "Multiproduct discussion"
+      }
+    ],
+    "panoptoUrl": "https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=18dcf2f8-0106-44eb-b11f-b20d001ea8fe",
+    "courseTopicId": "4",
+    "host": "UNNC Panopto",
+    "cataloguingBasis": "Panopto chapter headings and folder metadata inspected on 2026-10-29; not a full transcript or an independent academic review."
   }
 ];
