@@ -1,6 +1,6 @@
-import {panoptoSessionUrl} from './video-source.js';
-import {localiseData, localiseUI, isChinese, toggleLanguage} from './i18n.js';
-import {renderGraph, stopGraph} from './graph.js';
+import {panoptoSessionUrl} from './video-source.js?v=20261029';
+import {localiseData, localiseUI, isChinese, toggleLanguage} from './i18n.js?v=20261029';
+import {renderGraph, stopGraph} from './graph.js?v=20261029';
 import {industries,models,topics,videos,sectors,examples,lectures} from './data.js';
 localiseData({industries,models,topics,videos,sectors,examples,lectures});
 const $=s=>document.querySelector(s);

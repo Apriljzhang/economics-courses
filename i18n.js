@@ -1,4 +1,4 @@
-import {modelTranslations, exampleTranslations, videoTranslations} from './content-zh.js';
+import {modelTranslations, exampleTranslations, videoTranslations} from './content-zh.js?v=20261029';
 const language=new URLSearchParams(location.search).get('lang')==='zh'?'zh':'en';
 export const isChinese=()=>language==='zh';
 export function toggleLanguage(){const url=new URL(location.href);if(isChinese())url.searchParams.delete('lang');else url.searchParams.set('lang','zh');location.assign(url);}

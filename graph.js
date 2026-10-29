@@ -1,5 +1,5 @@
 import {industries, models, topics} from './data.js';
-import {t, isChinese} from './i18n.js';
+import {t, isChinese} from './i18n.js?v=20261029';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let cleanup=()=>{};
 export function renderGraph({container,matchingTopics,industryId,modelId,onIndustry,onModel,onTopic,shownVideos=[],onVideo,allowedModelIds=models.map(m=>m.id)}) {
