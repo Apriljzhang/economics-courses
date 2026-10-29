@@ -24,6 +24,7 @@ const translations={
 };
 export function t(value){if(!isChinese())return value;const s=String(value),trim=s.trim();let result=translations[trim];if(result===undefined){
  result=trim.replace(/^(\d+) industry sections · (\d+) divisions$/,'$1 个行业门类 · $2 个大类').replace(/^(\d+) models and concepts$/,'$1 个模型与概念').replace(/^(\d+) student presentations$/,'$1 个学生展示');
+ result=result.replace(/^STUDENT PRESENTATION · /,'学生展示 · ');
  result=result.replace(/^Watch (.+)$/, '观看$1').replace(/^A slide from (.+)$/, '$1中的一张幻灯片');
  result=result.replace(/^(.*?) is a division within (.*?) in the (.*?)\. Explore the activities below to see how economic models can help explain decisions in this industry\.$/,(_,a,b,c)=>`${a}属于${c}中的${b}。通过下方活动，了解经济模型如何解释行业决策。`);
  for(const [en,zh] of Object.entries(translations))if(en.length>40&&result.includes(en))result=result.replaceAll(en,zh);
