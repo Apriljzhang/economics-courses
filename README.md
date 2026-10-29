@@ -35,3 +35,12 @@ The site does not display lecture page numbers or require learners to consult th
 ## Status
 
 The complete website, teaching materials and recordings are included in this repository for GitHub Pages publication. These videos have been catalogued from visible presentation slides, not independently assessed for academic correctness. Transcripts and separate caption tracks have not been supplied. The native player includes the original audio. The current collection is eight recordings, ready for later additions.
+
+
+## October 2026 interface update
+
+The connection map follows **industry → student video → model**. Sections are shown first; selecting one reveals its divisions, and “Collapse divisions” returns to the overview. The map draws section–division classification links and video–industry/model links. Course exercises remain available in the details without direct industry–model edges on the map.
+
+The two browse/sector button rows have been removed. Search, section, course-topic and model filters remain, alongside the connections/list choice. English is the default. The **中文** button opens `?lang=zh`; **English** returns to the English version while preserving filters and a selected detail. `i18n.js` translates the interface, and `content-zh.js` contains Simplified Chinese translations of all 28 model explanations, 27 exercises and eight video descriptions and slide cues. Video audio and slides retain their original language.
+
+The UNNC video-library link opens the supplied Panopto folder. That folder requires the viewer’s institutional access when prompted; it is not an individual playable recording. Existing local MP4s are retained until each recording can be matched to a verified individual share link. To use institutional hosting for an entry, add `panoptoUrl` to its record in `videos.js`, using the full HTTPS `https://video.nottingham.edu.cn/Panopto/Pages/Viewer.aspx?id=<session UUID>` link. The detail will open that session in Panopto, with its existing access controls, and will not request the local MP4. `video-source.js` validates the institutional hostname and individual-session format. Never put the folder URL into a recording’s `src` or guess a session ID.
