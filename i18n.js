@@ -1,7 +1,7 @@
-import {modelTranslations, exampleTranslations, videoTranslations} from './content-zh.js?v=20261029';
+import {modelTranslations, exampleTranslations, videoTranslations} from './content-zh.js?v=20261029b';
 const language=new URLSearchParams(location.search).get('lang')==='zh'?'zh':'en';
 export const isChinese=()=>language==='zh';
-export function toggleLanguage(){const url=new URL(location.href);if(isChinese())url.searchParams.delete('lang');else url.searchParams.set('lang','zh');location.assign(url);}
+export function toggleLanguage(){const url=new URL(location.href);if(isChinese())url.searchParams.delete('lang');else url.searchParams.set('lang','zh');url.searchParams.set('v','20261029b');location.assign(url);}
 const translations={
 'Industry Lab · UNNC Industrial Economics':'产业学习实验室 · 宁波诺丁汉大学产业经济学',
 'Skip to explorer':'跳转到课程浏览区','UNNC · Industrial Economics':'宁波诺丁汉大学 · 产业经济学',
@@ -41,6 +41,7 @@ export function localiseData({industries,models,topics,videos,sectors,examples,l
  for(const topic of topics){topic.name=topic.nameZh;topic.question=topic.examples[0]?.question||videos.find(v=>v.subcategoryId===topic.id)?.title||`哪个模型可以解释${topic.name}中的一项活动？`;topic.application=topic.examples[0]?.application||videos.find(v=>v.subcategoryId===topic.id)?.summary||'此大类尚未添加教学应用。';}
 }
 export function localiseUI(root){
+ const brand=document.querySelector('.brand');if(brand)brand.href=isChinese()?'./?lang=zh&v=20261029b':'./?v=20261029b';
  document.documentElement.lang=isChinese()?'zh-CN':'en-GB';document.title=t(document.title);
  const toggle=document.querySelector('#language-toggle');toggle.textContent=isChinese()?'English':'中文';toggle.lang=isChinese()?'en-GB':'zh-CN';toggle.setAttribute('aria-label',isChinese()?'Switch to English':'切换到简体中文');
  if(!isChinese())return;

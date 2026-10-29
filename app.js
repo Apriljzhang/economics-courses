@@ -1,6 +1,6 @@
-import {panoptoSessionUrl} from './video-source.js?v=20261029';
-import {localiseData, localiseUI, isChinese, toggleLanguage} from './i18n.js?v=20261029';
-import {renderGraph, stopGraph} from './graph.js?v=20261029';
+import {panoptoSessionUrl} from './video-source.js?v=20261029b';
+import {localiseData, localiseUI, isChinese, toggleLanguage} from './i18n.js?v=20261029b';
+import {renderGraph, stopGraph} from './graph.js?v=20261029b';
 import {industries,models,topics,videos,sectors,examples,lectures} from './data.js';
 localiseData({industries,models,topics,videos,sectors,examples,lectures});
 const $=s=>document.querySelector(s);
@@ -17,7 +17,7 @@ function sectionOptions(){const current=$('#industry').value;const available=ind
 for(const x of industries)$('#industry').insertAdjacentHTML('beforeend',`<option value="${x.id}">${x.code} · ${isChinese()?esc(x.nameZh):`${esc(x.nameZh)} — ${esc(x.name)}`}</option>`);
 for(const l of lectures)$('#lecture').insertAdjacentHTML('beforeend',`<option value="${l.id}">${esc(l.title)}</option>`);
 for(const m of models)$('#model').insertAdjacentHTML('beforeend',`<option value="${m.id}">${esc(m.name)}</option>`);
-function syncURL(){const p=new URLSearchParams();if(view!=='industries')p.set('view',view);if(layout==='list')p.set('layout',layout);if(isChinese())p.set('lang','zh');for(const id of filterIds)if($('#'+id).value)p.set(id,$('#'+id).value);history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+location.hash);}
+function syncURL(){const p=new URLSearchParams();if(view!=='industries')p.set('view',view);if(layout==='list')p.set('layout',layout);if(isChinese())p.set('lang','zh');if(new URLSearchParams(location.search).has('v'))p.set('v','20261029b');for(const id of filterIds)if($('#'+id).value)p.set(id,$('#'+id).value);history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+location.hash);}
 function topicPassesFilters(t){return (!$('#sector').value||t.sectorId===$('#sector').value)&&(!$('#industry').value||t.industryId===$('#industry').value);}
 function modelPassesFilters(m){return (!$('#model').value||m.id===$('#model').value)&&(!$('#lecture').value||m.lectureId===$('#lecture').value);}
 function matchingTopics(){return topics.filter(t=>topicPassesFilters(t)&&(!$('#model').value&&!$('#lecture').value||t.modelIds.some(id=>modelPassesFilters(models.find(m=>m.id===id))))&&matches([t.code,t.name,t.nameZh,name(industries,t.industryId),industries.find(i=>i.id===t.industryId)?.nameZh,...t.examples.flatMap(e=>[e.name,e.question,e.application]),...videos.filter(v=>v.subcategoryId===t.id).flatMap(v=>[v.title,v.summary]),...t.modelIds.flatMap(id=>modelText(models.find(m=>m.id===id)))]));}
